@@ -1,0 +1,9 @@
+package main
+
+func Produce[T any](val T, n T) []T {
+	vals := make([]T, len(n))
+	for i := range vals {
+		vals[i] = val
+	}
+	return vals
+}

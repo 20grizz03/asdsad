@@ -1,0 +1,7 @@
+module 123
+
+go 1.23.2
+
+require (
+"gitlab.com/cznic/sqlite" v1.0.0
+)
